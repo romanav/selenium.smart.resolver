@@ -13,13 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @ControllerAdvice
 public class Service {
 
-
     @Autowired
     private CustomerRepository repository;
 
     @PostMapping("/add")
     public void home(@RequestBody  Xpath xpath) {
         repository.save(xpath);
-        System.out.println();
     }
 }
