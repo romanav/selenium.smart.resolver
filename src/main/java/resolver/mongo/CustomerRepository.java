@@ -6,9 +6,9 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Component;
 
 @Component
-public interface CustomerRepository extends MongoRepository<Customer, String> {
+public interface CustomerRepository extends MongoRepository<Xpath, String> {
 
-     Customer findByFirstName(String firstName);
-     List<Customer> findByLastName(String lastName);
+     Xpath findByXpath(String xpath);
+//     List<Xpath> findByLastName(String lastName);
 
 }
