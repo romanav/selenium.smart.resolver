@@ -1,4 +1,4 @@
-package resolver.mongo;
+package com.averkin.resolver.mongo;
 
 import java.util.List;
 
