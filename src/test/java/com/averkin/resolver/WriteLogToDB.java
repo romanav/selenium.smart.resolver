@@ -57,8 +57,6 @@ public class WriteLogToDB {
 
         List<Xpath> all = repository.findAll();
         assertThat(all.size()).isEqualTo(1);
-//        assertThat(all.get(0).className).isEqualTo("TestClass");
-//        System.out.println();
     }
 
 }
